@@ -1,0 +1,28 @@
+{
+  "name": "training-ttd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.4.2",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.0.0",
+    "path": "^0.12.7"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "dependencies": {
+    "text-decoding": "^1.0.0",
+    "text-encoding": "^0.7.0"
+  }
+}

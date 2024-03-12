@@ -1,0 +1,25 @@
+<!-- forgot-password.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="forgot.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Forgot Password</h1>
+
+        <div class="input-box">
+            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter Indian Phone Number (10 digits)" maxlength="10" pattern="\d{10}" required autocomplete="off">
+        </div>
+
+        <button type="button" class="btn" onclick="sendOTP()">Submit</button>
+
+        <div class="notification" id="notification"></div>
+    </div>
+
+    <script src="forgot.js"></script>
+</body>
+</html>
